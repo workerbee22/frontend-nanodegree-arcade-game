@@ -84,7 +84,7 @@ var Player = function(x, y) {
 };
 
 // PLAYER UPDATE METHOD
-// actually changes x and y positions from previous values based on keyboard
+// Actually changes x and y positions from previous values based on keyboard
 // input from arrow keys. Updates player location only if within bounds of the grid.
 // If player wins by reaching row ZERO then take special action.
 Player.prototype.update = function(key) {
